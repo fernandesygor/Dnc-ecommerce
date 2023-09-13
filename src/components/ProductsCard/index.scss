@@ -1,0 +1,45 @@
+@use "../../sass/variables" as *;  
+
+ .home{
+    &__products {
+        padding: 0 166px 166px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6rem;
+        justify-content: center;
+    }
+    &__card{
+        width: 330px;
+        height: 337px;
+        border: solid 1px;
+        border-radius: 8px;
+        
+        
+    }
+    
+   
+
+    &__card-description {
+        padding: 16px;
+        text-align: center;
+       
+
+        p{
+            padding-bottom: 11px;
+           
+        }
+        button {
+            background-color: $contrast-color;
+            width: 300px;
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+            text-decoration: none;
+
+        }
+        
+       
+   
+    }
+ }
+
